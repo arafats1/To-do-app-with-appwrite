@@ -1,4 +1,4 @@
-import { appwrite, github, twitter, react } from "../icons";
+import { appwrite, github, twitter, react, linkedin } from "../icons";
 import { useHistory } from "react-router-dom";
 
 const Landing = () => {
@@ -10,16 +10,16 @@ const Landing = () => {
 
   const links = [
     {
-      href: "http://github.com/appwrite/appwrite",
+      href: "https://github.com/arafats1/To-do-app-with-appwrite",
       icon: github(10),
     },
     {
-      href: "https://twitter.com/appwrite_io",
+      href: "https://twitter.com/thats_arafat",
       icon: twitter(10),
     },
     {
-      href: "http://appwrite.io",
-      icon: appwrite(10),
+      href: "https://www.linkedin.com/in/alaphat-magezi-85aa9632/",
+      icon: linkedin(10),
     },
   ];
 
